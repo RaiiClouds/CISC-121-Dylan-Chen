@@ -17,7 +17,7 @@ Decomposition:
 - Place the key in its correct sorted position
 - Move to the next unsorted element
 - Repeat until all elements are processed
-
+---
 Pattern Recognition
 - Repeatedly compares the current key with elements to its left
 - Moves from right to left through the sorted portion

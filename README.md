@@ -19,8 +19,6 @@ Decomposition:
 - Repeat until all elements are processed
 
 Pattern Recognition
-The algorithm exhibits several repeating patterns:
-
 - Repeatedly compares the current key with elements to its left
 - Moves from right to left through the sorted portion
 - Stops when it finds an element smaller than key or reaches the beginning
@@ -58,51 +56,30 @@ User provides input through:
 
 Input Processing:String parsing and validation
 
-Conversion to integer list
-Error handling for invalid formats like charcters.ex
-Processing Flow:
+- Conversion to integer list
+- Error handling for invalid formats like charcters.ex
 
-text
-Initialized Array → Step Generation → State Tracking → Visualization Creation
+Processing Flow: Initialized Array → Step Generation → State Tracking → Visualization Creation
+
 Algorithm Execution:
+- Generate all sorting steps upfront
+- Store each step with (array_state, description, current_index)
 
-Generate all sorting steps upfront
-Store each step with (array_state, description, current_index)
-Maintain current step pointer
-User Interaction Processing:
+Output Flow:Processed Data → Visualization → GUI Update → User Feedback
 
-"Next Step": increments pointer, returns visualization
-"Previous Step": decrements pointer, returns visualization
-State preservation between interactions
-Output Flow:
+- Matplotlib bar chart with color coding
+- Step description text
 
-text
-Processed Data → Visualization → GUI Update → User Feedback
-Visual Output:
-
-Matplotlib bar chart with color coding
-Step description text
-Progress information in JSON format
 User Feedback:
+- Real-time status updates
+- Error messages with guidance
 
-Real-time status updates
-Error messages with guidance
-Success confirmation
-GUI Integration Flow:
-
-text
-[User Input Area] → [Control Buttons] → [Visualization Display] → [Status Feedback]
-     ↓                    ↓                    ↓                     ↓
-Text Input        Generate/Step Buttons   Matplotlib Plot      Text + JSON Info
-The interface creates an interactive learning loop where users can:
-
-Provide input or generate data
-Step through the algorithm at their own pace
-See visual and textual explanations
-Go backwards to review steps
-Modify input and restart the process
 
 ## Steps to Run
+- Enter numbers separated by commas in the input box, or
+- Click “Generate Random Array” to create a random list
+- Click “Next Step” to advance through the algorithm
+- Click “Previous Step” to go back and review prior steps
 ## Hugging Face Link
 https://huggingface.co/spaces/Dylan10101/CISC121_PROJECT
 

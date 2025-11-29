@@ -23,7 +23,7 @@ Pattern Recognition
 - Moves from right to left through the sorted portion
 - Stops when it finds an element smaller than key or reaches the beginning
 - Elements are shifted right to make space for the key
-
+---
 Abstraction: 
 
 Details SHOWN to the user:
@@ -32,19 +32,18 @@ Details SHOWN to the user:
 - Color coding: red for current element being processed, blue for others
 - error handeling
 - All possible steps:
-"Looking at element X at position Y"
-"Shifted element Z right"
-"Inserted element X at position Y"
-"Array fully sorted!"
-Step Progress (Numerical tracking)
+- "Looking at element X at position Y"
+- "Shifted element Z right"
+- "Inserted element X at position Y"
+- "Array fully sorted!"
+- Step Progress (Numerical tracking)
 
 Details DISCARDED (not shown):
 
 - No showing of loop counters (i, j variables)
 - No display of temporary variable storage
 - Low-level Operations
-
-
+---
 Algorithm Design: 
 
 Input Flow: User Input → GUI Interface → Data Validation → Algorithm Initialization
@@ -80,8 +79,7 @@ User Feedback:
 - Click “Generate Random Array” to create a random list
 - Click “Next Step” to advance through the algorithm
 - Click “Previous Step” to go back and review prior steps
+
 ## Hugging Face Link
 https://huggingface.co/spaces/Dylan10101/CISC121_PROJECT
 
-
-## Author & Acknowledgment

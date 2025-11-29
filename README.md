@@ -73,6 +73,8 @@ User Feedback:
 - Real-time status updates
 - Error messages with guidance
 
+![alt text](PROJECT.drawio.png)
+
 
 ## Steps to Run
 - Enter numbers separated by commas in the input box, or

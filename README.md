@@ -85,3 +85,11 @@ User Feedback:
 ## Hugging Face Link
 https://huggingface.co/spaces/Dylan10101/CISC121_PROJECT
 
+## Acknowledgments
+**AI-GENERATED CONTENT DISCLAIMER**
+    AI's Role in This Project:
+    • Code Generation: The initial Python code structure was AI-generated
+    • Algorithm Implementation: Insertion sort logic was AI-assisted
+    • User Interface: Gradio components were AI-designed
+    • Documentation: Comments and explanations were AI-enhanced
+
